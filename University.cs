@@ -9,6 +9,8 @@ namespace StudentAccounting
         {
             _students = new Dictionary<Student, List<int>>();
         }
+
+        // Метод добавления студента
         public void AddStudent(string name, string lastName)
         {
             var student = new Student(name, lastName);
@@ -21,6 +23,7 @@ namespace StudentAccounting
                 Console.WriteLine($"Студент {name} {lastName} уже есть в списке.");
             }
         }
+        // Метод вывода информации о студенте
         public void PrintStudents()
         {
             foreach (var studentEntry in _students)
@@ -32,6 +35,7 @@ namespace StudentAccounting
                 Console.WriteLine($"{studentEntry.Key}\t {gradeInfo}\n");
             }
         }
+        // Метод добавления оценки студенту
         public void AddGradeForStudent(string name, string lastName, int grade)
         {
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(lastName))
@@ -59,6 +63,7 @@ namespace StudentAccounting
                 _students[student] = new List<int> { grade };
             }
         }
+        // Метод получения средней оценки студента
         public double GetAverageGrade(string name, string lastName)
         {
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(lastName))
@@ -73,6 +78,7 @@ namespace StudentAccounting
 
             return 0;
         }
+        // Метод вывода средней оценки студента
         public void PrintAverageGrade(string name, string lastName)
         {
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(lastName))
@@ -82,7 +88,8 @@ namespace StudentAccounting
 
             Console.WriteLine($"Средняя оценка студента {name} {lastName}: {averageGrade}\n");
         }
-        public void PrintAverageGradeMoreThan(double grade)
+        // Метод вывода студентов, чья оценка выше заданной
+        public void PrintStudentsAverageGradeMoreThan(double grade)
         {
             Console.WriteLine($"Список студентов, чья средняя отметка выше {grade}: ");
 
@@ -98,6 +105,7 @@ namespace StudentAccounting
             foreach (var student in studentsWithAverageGrade)
                 Console.WriteLine($"{student.FirstName} {student.LastName} -> {student.AverageGrade}");
         }
+        // Метод удаления студента
         public void DeleteStudent(string name, string lastName)
         {
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(lastName))
