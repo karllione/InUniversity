@@ -1,0 +1,14 @@
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.AssemblyInfoInputs.cache
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.AssemblyInfo.cs
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.csproj.CoreCompileInputs.cache
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\bin\Debug\net8.0\StudentAccounting.exe
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\bin\Debug\net8.0\StudentAccounting.deps.json
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\bin\Debug\net8.0\StudentAccounting.runtimeconfig.json
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\bin\Debug\net8.0\StudentAccounting.dll
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\bin\Debug\net8.0\StudentAccounting.pdb
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.dll
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\refint\StudentAccounting.dll
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.pdb
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\StudentAccounting.genruntimeconfig.cache
+C:\Users\schen\source\repos\dotnetlessons\StudentAccounting\obj\Debug\net8.0\ref\StudentAccounting.dll
